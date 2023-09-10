@@ -23,12 +23,6 @@ const showOpenFilePicker = async () => {
                     'application/x.scratch.sb3': ['.zinc']
                 }
             },
-            {
-                description: 'PenguinMod Project',
-                accept: {
-                    'application/x.scratch.sb3': ['.pmp', '.pm']
-                }
-            },
         ]
     });
     return handle;
