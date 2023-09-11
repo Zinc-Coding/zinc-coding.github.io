@@ -24,6 +24,12 @@ const showOpenFilePicker = async () => {
                 }
             },
             {
+                description: 'Snail IDE Project',
+                accept: {
+                    'application/x.scratch.sb3': ['.snail']
+                }
+            },
+            {
                 description: 'PenguinMod Project',
                 accept: {
                     'application/x.scratch.sb3': ['.pmp', '.pm']
