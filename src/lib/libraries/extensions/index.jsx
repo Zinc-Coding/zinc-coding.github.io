@@ -336,6 +336,21 @@ const menuItems = [
         featured: true
     },
     {
+        name: 'Camera',
+        extensionId: 'pmCamera',
+        iconURL: defaultExtensionIcon,
+        tags: ['penguinmod'],
+        description: (
+            <FormattedMessage
+                defaultMessage="Allows the camera to move around anywhere on the stage."
+                description="The description for the PenguinMod Camera extension."
+                id="pm.extension.camera.description"
+            />
+        ),
+        credits: 'Inspired by⠀⠀⠀⠀⠀⠀ DT-is-not-available',
+        featured: true
+    },
+    {
         name: 'JSON',
         extensionId: 'jgJSON',
         iconURL: jgJSONExtensionIcon,
@@ -939,21 +954,6 @@ if (IsLocal || IsLiveTests) {
             iconURL: defaultExtensionIcon,
             tags: ['penguinmod'],
             description: 'Test extension to see if things are possible.\nDO NOT USE THIS IN PRODUCTION as blocks are subject to change and may corrupt your projects.',
-            featured: true
-        },
-        {
-            name: 'Camera',
-            extensionId: 'pmCamera',
-            iconURL: defaultExtensionIcon,
-            tags: ['penguinmod'],
-            description: (
-                <FormattedMessage
-                    defaultMessage="Allows the camera to move around anywhere on the stage."
-                    description="The description for the PenguinMod Camera extension."
-                    id="pm.extension.camera.description"
-                />
-            ),
-            credits: 'Inspired by⠀⠀⠀⠀⠀⠀ DT-is-not-available',
             featured: true
         },
         {
