@@ -58,7 +58,6 @@ import customExtensionIcon from './custom/custom.svg';
 import penguinmodLibraryExtensionIcon from './penguinmod/library.svg';
 
 import filesExtensionIcon from './penguinmod/extensions/files.png';
-import jgWebsiteRequestsExtensionIcon from './penguinmod/extensions/websiteRequests.png';
 import jgJSONExtensionIcon from './penguinmod/extensions/json.png';
 import jgRuntimeExtensionIcon from './penguinmod/extensions/runtime.png';
 import jgPrismExtensionIcon from './penguinmod/extensions/prism.png';
@@ -69,6 +68,7 @@ import jwStructsExtensionIcon from './penguinmod/extensions/ooplogo.png';
 
 import iygPerlinNoiseExtensionIcon from './penguinmod/extensions/perlinnoisebanner.png';
 
+import pmCameraExtensionIcon from './penguinmod/extensions/pmcamera-thumbnail.png';
 // cl waw
 // import cloudlinkThumb from './penguinmod/extensions/cloudlinkThumb.png';
 import cloudlinkIcon from './penguinmod/extensions/cloudlinkIcon.svg';
@@ -283,6 +283,21 @@ const menuItems = [
         featured: true
     },
     {
+        name: 'Stage Camera',
+        extensionId: 'pmCamera',
+        iconURL: pmCameraExtensionIcon,
+        tags: ['penguinmod'],
+        description: (
+            <FormattedMessage
+                defaultMessage="Allows the camera to move around anywhere on the stage."
+                description="The description for the PenguinMod Camera extension."
+                id="pm.extension.camera.description"
+            />
+        ),
+        credits: 'Inspired by⠀⠀⠀⠀⠀⠀ DT-is-not-available',
+        featured: true
+    },
+    {
         name: 'Files',
         extensionId: 'twFiles',
         twDeveloper: 'GarboMuffin',
@@ -333,21 +348,6 @@ const menuItems = [
         iconURL: pmOperatorsExpansionExtensionIcon,
         tags: ['penguinmod', 'categoryexpansion'],
         description: 'More operators like nand, nor, character code to character, reading multiple lined text line by line, etc.',
-        featured: true
-    },
-    {
-        name: 'Camera',
-        extensionId: 'pmCamera',
-        iconURL: defaultExtensionIcon,
-        tags: ['penguinmod'],
-        description: (
-            <FormattedMessage
-                defaultMessage="Allows the camera to move around anywhere on the stage."
-                description="The description for the PenguinMod Camera extension."
-                id="pm.extension.camera.description"
-            />
-        ),
-        credits: 'Inspired by⠀⠀⠀⠀⠀⠀ DT-is-not-available',
         featured: true
     },
     {
