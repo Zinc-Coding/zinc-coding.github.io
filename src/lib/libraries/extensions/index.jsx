@@ -68,7 +68,7 @@ import jwStructsExtensionIcon from './penguinmod/extensions/ooplogo.png';
 
 import iygPerlinNoiseExtensionIcon from './penguinmod/extensions/perlinnoisebanner.png';
 
-import pmCameraExtensionIcon from './penguinmod/extensions/pmcamera-thumbnail.png';
+import pmCameraExtensionIcon from './src/lib/libraries/extensions/penguinmod/extensions/pmcamera-thumbnail.png';
 // cl waw
 // import cloudlinkThumb from './penguinmod/extensions/cloudlinkThumb.png';
 import cloudlinkIcon from './penguinmod/extensions/cloudlinkIcon.svg';
