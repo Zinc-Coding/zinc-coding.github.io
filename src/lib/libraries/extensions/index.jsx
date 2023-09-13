@@ -67,8 +67,6 @@ import jwProtoExtensionIcon from './penguinmod/extensions/proto.png';
 import jwStructsExtensionIcon from './penguinmod/extensions/ooplogo.png';
 
 import iygPerlinNoiseExtensionIcon from './penguinmod/extensions/perlinnoisebanner.png';
-
-import pmCameraExtensionIcon from './src/lib/libraries/extensions/penguinmod/extensions/pmcamera-thumbnail.png';
 // cl waw
 // import cloudlinkThumb from './penguinmod/extensions/cloudlinkThumb.png';
 import cloudlinkIcon from './penguinmod/extensions/cloudlinkIcon.svg';
@@ -280,21 +278,6 @@ const menuItems = [
                 id="gui.extension.makeymakey.description"
             />
         ),
-        featured: true
-    },
-    {
-        name: 'Stage Camera',
-        extensionId: 'pmCamera',
-        iconURL: pmCameraExtensionIcon,
-        tags: ['penguinmod'],
-        description: (
-            <FormattedMessage
-                defaultMessage="Allows the camera to move around anywhere on the stage."
-                description="The description for the PenguinMod Camera extension."
-                id="pm.extension.camera.description"
-            />
-        ),
-        credits: 'Inspired by⠀⠀⠀⠀⠀⠀ DT-is-not-available',
         featured: true
     },
     {
