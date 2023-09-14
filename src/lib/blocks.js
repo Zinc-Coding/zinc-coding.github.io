@@ -509,6 +509,14 @@ export default function (vm) {
     ScratchBlocks.utils.is3dSupported = function () {
         return true;
     };
-
+    ScratchBlocks.Toolbox.registerMenu('extensionControls', [
+        {
+            text: 'Remove Extension',
+            enabled: true,
+            callback: ext => {
+                vm.extensionManager.removeExtension(ext);
+            }
+        }
+    ]);
     return ScratchBlocks;
 }
