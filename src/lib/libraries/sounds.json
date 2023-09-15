@@ -1549,6 +1549,20 @@
         "rate": 22050
     },
     {
+        "name": "Cut",
+        "tags": [
+            "tool",
+            "tools",
+            "scissors",
+            "penguinmod"
+        ],
+        "dataFormat": "mpeg",
+        "md5ext": "sound.mp3",
+        "rate": 44100,
+        "fromPenguinModLibrary": true,
+        "libraryFilePage": "sounds/scissors.mp3"
+    },
+    {
         "name": "Cymbal",
         "tags": [
             "music",
