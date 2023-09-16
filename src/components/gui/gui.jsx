@@ -368,22 +368,6 @@ const GUIComponent = props => {
                                             id="gui.gui.soundsTab"
                                         />
                                     </Tab>
-                                    {(IsLocal || IsLiveTests) && (
-                                        <Tab
-                                            className={tabClassNames.tab}
-                                            onClick={onActivateFilesTab}
-                                        >
-                                            <img
-                                                draggable={false}
-                                                src={filesIcon}
-                                            />
-                                            <FormattedMessage
-                                                defaultMessage="Files"
-                                                description="Button to get to the files panel"
-                                                id="pm.gui.filesTab"
-                                            />
-                                        </Tab>
-                                    )}
                                 </TabList>
                                 <TabPanel className={tabClassNames.tabPanel}>
                                     <Box className={styles.blocksWrapper}>

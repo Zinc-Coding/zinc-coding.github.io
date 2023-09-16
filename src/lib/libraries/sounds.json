@@ -132,6 +132,19 @@
         "rate": 44100
     },
     {
+        "name": "Action1",
+        "tags": [
+            "music",
+            "themes",
+            "penguinmod"
+        ],
+        "dataFormat": "mpeg",
+        "md5ext": "sound.mp3",
+        "rate": 44100,
+        "fromPenguinModLibrary": true,
+        "libraryFilePage": "sounds/action1.mp3"
+    },
+    {
         "name": "Activate",
         "tags": [
             "effects",
@@ -348,6 +361,19 @@
         "md5ext": "cd8fa8390b0efdd281882533fbfcfcfb.wav",
         "sampleCount": 6336,
         "rate": 44100
+    },
+    {
+    "name": "Basically Green",
+    "tags": [
+        "music",
+        "loops",
+        "penguinmod"
+    ],
+    "dataFormat": "mpeg",
+    "md5ext": "sound.mp3",
+    "rate": 44100,
+    "fromPenguinModLibrary": true,
+    "libraryFilePage": "sounds/basically_green.mp3"
     },
     {
         "name": "Basketball Bounce",
@@ -1549,6 +1575,19 @@
         "rate": 22050
     },
     {
+        "name": "Curiously Sneaky",
+        "tags": [
+            "music",
+            "themes",
+            "penguinmod"
+        ],
+        "dataFormat": "mpeg",
+        "md5ext": "sound.mp3",
+        "rate": 44100,
+        "fromPenguinModLibrary": true,
+        "libraryFilePage": "sounds/curiously_sneaky.mp3"
+    },
+    {
         "name": "Cut",
         "tags": [
             "tool",
@@ -1862,6 +1901,21 @@
         "md5ext": "e15333f5ffaf08e145ace1610fccd67d.wav",
         "sampleCount": 88393,
         "rate": 22050
+    },
+    {
+        "name": "Dancing Ducks",
+        "tags": [
+            "music",
+            "music-box",
+            "musicbox",
+            "music box",
+            "penguinmod"
+        ],
+        "dataFormat": "mpeg",
+        "md5ext": "sound.mp3",
+        "rate": 44100,
+        "fromPenguinModLibrary": true,
+        "libraryFilePage": "sounds/dancing_ducks.mp3"
     },
     {
         "name": "Deep Underground",
@@ -3707,6 +3761,20 @@
         "libraryFilePage": "sounds/intricate-wireframe.mp3"
     },
     {
+        "name": "Joy Outerbass",
+        "tags": [
+            "music",
+            "loops",
+            "themes",
+            "penguinmod"
+        ],
+        "dataFormat": "mpeg",
+        "md5ext": "sound.mp3",
+        "rate": 44100,
+        "fromPenguinModLibrary": true,
+        "libraryFilePage": "sounds/joy_outerbass.mp3"
+    },
+    {
         "name": "Jump",
         "tags": [
             "effects",
@@ -5527,6 +5595,32 @@
         "md5ext": "693b428f3797561a11ad0ddbd897b5df.wav",
         "sampleCount": 327153,
         "rate": 22050
+    },
+    {
+        "name": "Techno3",
+        "tags": [
+            "music",
+            "loops",
+            "penguinmod"
+        ],
+        "dataFormat": "mpeg",
+        "md5ext": "sound.mp3",
+        "rate": 44100,
+        "fromPenguinModLibrary": true,
+        "libraryFilePage": "sounds/techno3.mp3"
+    },
+    {
+        "name": "Techno4",
+        "tags": [
+            "music",
+            "loops",
+            "penguinmod"
+        ],
+        "dataFormat": "mpeg",
+        "md5ext": "sound.mp3",
+        "rate": 44100,
+        "fromPenguinModLibrary": true,
+        "libraryFilePage": "sounds/techno4.mp3"
     },
     {
         "name": "Telephone Ring",
